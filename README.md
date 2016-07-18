@@ -5,7 +5,7 @@ This is a preconfigured setup using [svg-sprite](https://github.com/jkphl/svg-sp
 Run `npm install` first to install all dependencies. `npm` is the package manager of Node.js. If you are not yet using Node.js, you may use [nvm](https://github.com/creationix/nvm) to install it.
 
 ## Generating ##
-Separate icons are placed in `src`. Run `npm run build`. The spritesheet can be found in `dist/`. The icon symbols are named after the filename (without extension).
+Separate icons are placed in `src`. Run `npm run build`. The spritesheet can be found in `dist/`.
 
 ## Usage ##
-Icons in the spritesheet can be addressed with `<svg><use xlink:href="/img/icons.svg#home"></use></html>`, where `/img/icons.svg` is the path to the spritesheet, and `home` is the symbol name.
+Icons in the spritesheet can be addressed with `<svg><use xlink:href="/img/icons.svg#github"></use></html>`, where `/img/icons.svg` is the path to the spritesheet, and `github` is the symbol name. The symbols are named after their original filename.
