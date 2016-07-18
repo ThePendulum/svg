@@ -8,4 +8,4 @@ Run `npm install` first to install all dependencies. `npm` is the package manage
 Separate icons are placed in `src`. Run `npm run build`. The spritesheet can be found in `dist/`.
 
 ## Usage ##
-Icons in the spritesheet can be addressed with `<svg><use xlink:href="/img/icons.svg#github"></use></html>`, where `/img/icons.svg` is the path to the spritesheet, and `github` is the symbol name. The symbols are named after their original filename.
+Icons in the spritesheet can be addressed with `<svg><use xlink:href="/img/icons.svg#github"></use></svg>`, where `/img/icons.svg` is the path to the spritesheet, and `github` is the symbol name. The symbols are named after their original filename.
